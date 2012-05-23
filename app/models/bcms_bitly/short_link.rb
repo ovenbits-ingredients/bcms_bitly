@@ -3,7 +3,7 @@ require 'bitly'
 module BcmsBitly
   class ShortLink < ActiveRecord::Base
     acts_as_content_block
-    belongs_to :page
+    belongs_to :page, class_name: 'Cms::Page'
     validates_presence_of :url
 
     # Turn a URL into a shorter Bitly URL
