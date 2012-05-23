@@ -6,7 +6,7 @@ module BcmsBitly
 
       def bcms_bitly_create_short_link
         domain  = Rails.configuration.cms.site_domain
-        sl      = BcmsBitly::ShortLink.new(page_id: id)
+        sl      = build_short_link
         sl.url  = sl.shorten("http://#{domain}#{path}")
         sl.name = name
         sl.save
