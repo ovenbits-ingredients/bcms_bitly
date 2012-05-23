@@ -1,4 +1,3 @@
-SITE_DOMAIN="localhost:3000"
 Dummy::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
@@ -35,4 +34,6 @@ Dummy::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  config.cms.site_domain = "localhost:3000"
 end

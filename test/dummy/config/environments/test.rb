@@ -1,4 +1,3 @@
-SITE_DOMAIN="bcms-bitly.dev"
 Dummy::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
@@ -35,4 +34,6 @@ Dummy::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  config.cms.site_domain = "bcms-bitly.dev"
 end
