@@ -35,5 +35,5 @@ Dummy::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  config.cms.site_domain = "localhost:3000"
+  config.cms.site_domain = "dummy.dev"
 end
