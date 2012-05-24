@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bcms_bitly (0.0.1)
+    bcms_bitly (0.0.2)
       bitly
       browsercms (~> 3.5.0.alpha)
 
@@ -43,7 +43,7 @@ GEM
       crack (>= 0.1.4)
       httparty (>= 0.7.6)
       oauth2 (~> 0.5.0)
-    browsercms (3.5.0.alpha)
+    browsercms (3.5.0.rc3)
       ancestry (~> 1.2.4)
       ckeditor_rails (~> 3.6.2.2)
       jquery-rails (~> 2.0)
@@ -83,7 +83,7 @@ GEM
     oauth2 (0.5.2)
       faraday (~> 0.7)
       multi_json (~> 1.0)
-    paperclip (3.0.3)
+    paperclip (3.0.4)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
       activesupport (>= 3.0.0)
