@@ -17,7 +17,7 @@ module BcmsBitly
     # Returns the shortened URL String
     def shorten(url)
       Bitly.use_api_version_3
-      bitly = Bitly.new(ENV['nbcf_bitly_username'], ENV['nbcf_bitly_api_key'])
+      bitly = Bitly.new(ENV['bitly_username'], ENV['bitly_api_key'])
       bitly.shorten(url).short_url
     end
   end
