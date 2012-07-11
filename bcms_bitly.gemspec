@@ -5,7 +5,7 @@ require "bcms_bitly/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.add_dependency "browsercms", "~> 3.5.0.alpha"
+  s.add_dependency "browsercms", "~> 3.5"
 
   s.name        = "bcms_bitly"
   s.version     = BcmsBitly::VERSION

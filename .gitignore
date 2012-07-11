@@ -6,3 +6,5 @@ test/dummy/log/*.log
 test/dummy/tmp/
 test/dummy/.sass-cache
 test/dummy/.powenv
+test/dummy/config/initializers/bcms_bitly.rb
+
