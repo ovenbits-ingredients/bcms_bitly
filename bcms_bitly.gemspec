@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.summary     = "Shorten page URLs through Bitly and save them."
   s.description = ""
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE.txt", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE.txt", "Rakefile", "README.markdown"]
   s.files -= Dir['lib/tasks/module_tasks.rake']
   s.test_files = Dir["test/**/*"]
 
