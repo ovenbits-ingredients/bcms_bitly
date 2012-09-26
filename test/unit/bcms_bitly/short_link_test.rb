@@ -19,6 +19,8 @@ module BcmsBitly
       page = Cms::Page.create name: 'Test', path: '/test'
       old_url = page.short_link.url
       page.update_attribute :path, '/test2'
+      page.publish!
+      page.reload
 
       assert page.short_link.url != old_url
     end
@@ -27,6 +29,8 @@ module BcmsBitly
       page = Cms::Page.create name: 'Test', path: '/test'
       old_url = page.short_link.url
       page.update_attribute :name, 'Test2'
+      page.publish!
+      page.reload
 
       assert_equal page.short_link.url, old_url
     end
