@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bcms_bitly (0.0.4)
+    bcms_bitly (1.0.0)
       bitly
       browsercms (~> 3.5)
 
